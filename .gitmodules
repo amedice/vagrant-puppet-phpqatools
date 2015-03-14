@@ -1,3 +1,0 @@
-[submodule "puppet/modules/phpqatools"]
-	path = puppet/modules/phpqatools
-	url = https://github.com/amedice/puppet-phpqatools.git
