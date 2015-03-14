@@ -5,7 +5,6 @@ Install phpqatools using vagrant
 Installation
 ------------
 
-* Add a box with puppet, for example: vagrant init MantasK/centos-6.5-x86_64-puppet
 * Clone this repository
 * Install submodules with git submodule update --init
 * After running vagrant up the box is set up using Puppet
