@@ -1,0 +1,9 @@
+forge "http://forge.puppetlabs.com"
+
+mod 'stdlib', :git => 'https://github.com/puphpet/puppetlabs-stdlib.git'
+mod 'concat', :git => 'https://github.com/puphpet/puppetlabs-concat.git'
+mod 'wget', :git => 'https://github.com/maestrodev/puppet-wget.git'
+mod 'yum', :git => 'https://github.com/puphpet/puppet-yum.git'
+mod 'nginx', :git => 'https://github.com/puphpet/puppet-nginx.git'
+mod 'php', :git => 'https://github.com/puphpet/puppet-php.git'
+mod 'composer', :git => 'https://github.com/puphpet/puppet-composer.git'

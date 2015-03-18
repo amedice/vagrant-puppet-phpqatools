@@ -69,6 +69,10 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get install -y apache2
   # SHELL
 
+  # r10k plugin to deploy puppet modules
+  config.r10k.puppet_dir = "puppet"
+  config.r10k.puppetfile_path = "puppet/Puppetfile"
+
   config.vm.provision :puppet do |puppet|
     puppet.module_path = "puppet/modules"
     puppet.hiera_config_path = "puppet/hiera.yaml"

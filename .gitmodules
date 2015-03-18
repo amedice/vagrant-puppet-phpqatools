@@ -4,3 +4,6 @@
 [submodule "puppet/modules/wget"]
 	path = puppet/modules/wget
 	url = https://github.com/maestrodev/puppet-wget.git
+[submodule "puppet/modules/nginx"]
+	path = puppet/modules/nginx
+	url = https://github.com/jfryman/puppet-nginx.git
